@@ -18,14 +18,14 @@ body{
 .box-one{
   background-image: linear-gradient(rgb(255, 0, 170), rgb(255, 102, 0));
   left: 50%;
-  transform: translateX(-83%);
+  transform: translateX(-53%);
   border-radius: 50%;
 }
 
 .box-two{
   height: 305px;
   left: 50%;
-  transform: translateX(-130%);
+  transform: translateX(-100%);
   position: absolute;
   background-color: #403553;
   overflow: hidden;
