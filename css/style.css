@@ -1,13 +1,78 @@
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
+*{
+  padding: 0;
+  margin: 0;
 }
 
-body {
-  background-color: #fff;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  font-family: sans-serif;
+body{
+  background-color: #403553;
+}
+
+.box-one, .box-two{
+  position: absolute;
+  top: 200px;
+  width: 300px;
+  height: 300px;
+}
+
+.box-one{
+  background-image: linear-gradient(rgb(255, 0, 170), rgb(255, 102, 0));
+  left: 560px;
+  border-radius: 50%;
+}
+
+.box-two{
+  left: 418px;
+  position: absolute;
+  background-color: #403553;
+  overflow: hidden;
+}
+
+.semicircle{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  top: 40px;
+  left: 42px;
+  background-image: linear-gradient(white 50%, #eee 50%);
+  border-radius: 50%;
+}
+
+.circle{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 64px;
+  left: 117.5px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.circle-one{
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  top: 40px;
+  left: 180.5px;
+  background-color: rgb(255, 204, 65);
+  border-radius: 50%;
+}
+
+.cube{
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  background-color: #403553;
+  top: 149px;
+  left: 150px;
+  overflow: hidden;
+}
+
+.circle-two{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: -45px;
+  left: 95px;
+  background-color: rgb(255, 167, 51);
+  border-radius: 50%;
 }
