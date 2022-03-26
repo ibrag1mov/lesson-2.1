@@ -9,19 +9,23 @@ body{
 
 .box-one, .box-two{
   position: absolute;
-  top: 200px;
+  top: 35%;
+  transform: translateY(-35%);
   width: 300px;
   height: 300px;
 }
 
 .box-one{
   background-image: linear-gradient(rgb(255, 0, 170), rgb(255, 102, 0));
-  left: 560px;
+  left: 43.3%;
+  transform: translateX(-43.3%);
   border-radius: 50%;
 }
 
 .box-two{
-  left: 418px;
+  height: 305px;
+  left: 32%;
+  transform: translateX(-32%);
   position: absolute;
   background-color: #403553;
   overflow: hidden;
@@ -51,8 +55,8 @@ body{
   position: absolute;
   width: 220px;
   height: 220px;
-  top: 40px;
-  left: 180.5px;
+  top: 41px;
+  left: 187px;
   background-color: rgb(255, 204, 65);
   border-radius: 50%;
 }
